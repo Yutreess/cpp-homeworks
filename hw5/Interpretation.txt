@@ -1,0 +1,18 @@
+Upon a successful run of the program, an output
+similar to the following will print to the console:
+
+f(x,y): result  f(x,y+1): result  f(x,y+2): result ...
+f(x,y): result  f(x+1,y): result  f(x+2,y): result ...
+
+x will represent the amount of animal parts used.
+y will represent the number of types of animals used.
+
+The output uses the values given by the user to
+evaluate the profit equation for every integer value
+of x and y in the range of values for x and y.
+
+Example:
+  f(2,1): 1.21
+
+This evaluates the projected profit if 2 animal parts are used,
+from 1 type of animal.

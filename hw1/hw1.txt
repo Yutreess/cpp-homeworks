@@ -1,0 +1,62 @@
+Name: Justus Peterson-Rhodes
+Section: A
+
+Algorithm 1 (tic-tac-toe):
+
+	1- Draw two parallel lines, leaving a fair amount of space between
+them to partition three equally sized spaces.
+	
+	2- Draw two lines parallel to each other, but
+perpendicular to the lines in step 1. Be sure you have nine nearly equal
+spaces with room to write a single letter within them.
+
+	3- Assign one player to write "X"s, and the other player for writing
+"O"s. Also decide which player takes the first move.
+
+	4- Player one will make their move by writing their letter assigned in
+step 3 in one of the nine spaces in the tic-tac-toe board. 
+	
+	5- Player two shall do the same, without writing their letter in a
+space already occupied by a letter from a previous play.
+
+	6- Repeat steps 4 and 5 until either:
+		A-  Only one letter, X or O, occupies three spaces forming a
+horizontal line, vertical line, or a diagonal line. In this case, whichever
+player wrote the letters forming said line, is the victor.
+		B- All spaces of the board are occupied by a letter, X or O.
+In this case, neither player wins, thus the game is a draw.
+ 
+Algorithm 2 (Prime Factorization):
+	
+	1- Write the positive integer n.
+
+	2- Below n, write the same number as an expression of any 2 factors
+of n.
+
+	3- Now there are 3 numbers written, n, and two factors that multiply
+to n. Below the factors of n, continue step 2 (treating the factors of n as
+you did for the number n) untill the numbers in the
+expression are prime numbers.
+	
+	4- For all prime numbers found, multiply them together. The product
+will be n.
+
+Algorithm 3 (Chickendale Recycling):
+
+	1- Record the number of units of recyclable waste permitted for next
+week's collection
+
+	2- Find the recyclable material that pays the most per unit
+
+	3- For the material in step 2, recycle up to the amount in step 1,
+without going over.
+
+	4- If after step 4, there are still materials left that is permitted
+to recycle, repeat step 2 to find the SECOND most high paying material per
+unit.
+	5- Do step 3, without going over the total amount of material found
+in step 1.
+	
+	6- Repeat steps 3 to 5 until all recyclable materials permitted are
+used, and no more can be recycled.
+	
